@@ -329,7 +329,7 @@ public class RedisMessageListenerContainer implements InitializingBean, Disposab
 
 	/**
 	 * Sets the task execution used for subscribing to Redis channels. By default, if no executor is set, the
-	 * {@link #setTaskExecutor(Executor)} will be used. In some cases, this might be undersired as the listening to the
+	 * {@link #setTaskExecutor(Executor)} will be used. In some cases, this might be undesired as the listening to the
 	 * connection is a long running task.
 	 * <p>
 	 * Note: This implementation uses at most one long running thread (depending on whether there are any listeners
